@@ -6,7 +6,7 @@ class moto{
 
     public:
         moto();
-        ~moto();
+        virtual ~moto();
 };
 
 #endif /*MOTO_H*/

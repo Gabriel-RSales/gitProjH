@@ -1,12 +1,17 @@
 #ifndef CARRO_H
 #define CARRO_H
 
-class carro{
+#include "automoveis.h"
+using namespace std;
+
+class carro : virtual public automoveis{
     private:
         
     public:
         carro();
-        ~carro();
+        virtual ~carro();
+
+        void defNrodas();
 };
 
 #endif /*CARRO_H*/
